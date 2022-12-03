@@ -24,5 +24,34 @@ Ex: MSE for regression problems / MAE(mean absolute error)
 Ex: Cross entropy for sigmoid related problems / Hinge loss
 Ex: Svm loss 
 
+OPTMIZERS in neural networks: Optmizers updates the model, in response to the output of the loss function.
+categorical_crossentropy for Multi-class classification
+Adam for Adaptive moment estimation which is well suited for data in high dimensional feature space. 
 
 
+hYPERPARAMETERS AND lOSS FUNCTIONS
+
+Parameters of a deep neural network are the weights and biases that are learned using the backpropagation algorithm.
+In addition, there are many hyperparameters for an MLP. These are parameters specified before
+training, not learned from a training set.
+• Number of hidden layers.
+• Number of neurons in each layer
+• The activation units in each hidden layer and possibly its parameters.
+
+Another choice to make is the loss function to minimize. Possible choices are:
+• Mean square error or mean square log function.
+• Mean absolute error.
+• Binary cross-entropy or multiclass cross-entropy function.
+• Hinge loss or squared hinge loss.
+
+Hyperparameters Related to Training, There are also hyperparameters related to training.
+• Learning rate in gradient descent.
+• Momentum parameter.
+• Number of epochs (iterations)
+• Batch size.
+
+Methods to find hyperparameters
+• Manual search.
+• Grid search.
+• Random Search.
+• Bayesian optimization.
